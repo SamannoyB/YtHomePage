@@ -97,3 +97,89 @@ body {
     font-size: 10px;
     font-family: Roboto, Arial, sans-serif;
 }
+
+.logo {
+    display: flex;
+    height: 56px;
+}
+
+.logo-img {
+    height: 56px;
+}
+
+.user-d {
+    width: 225px;
+}
+
+.search-container {
+  min-width: 40px;
+  max-width: 728px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container input {
+    height: 26px;
+  min-width: 0px;
+  width: 526px;
+  padding: 2px 6px;
+  border: 1px solid #CCCCCC;
+  color: #f8f8f8;
+  font: 13px Roboto, Noto, sans-serif;
+}
+
+.search-container button {
+    float: right;
+    height: 32px;
+    width: 65px;
+    padding: 1px 6px;
+    background: #f8f8f8;
+  border: 1px solid #CCCCCC;
+  border-left: 0px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+
+.iconify {
+    height: 24px;
+    width: 24px;
+    color: #606060;
+}
+
+.search-btn {
+    height: 20px;
+    width: 20px;
+}
+
+.user-d {
+    display: flex;
+    width: 225px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 16px;
+}
+
+.user-d button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.user {
+    height: 32px;
+    width: 32px;
+}
+
+.stick {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  left: 0;
+    width: 100%;
+}
+  
