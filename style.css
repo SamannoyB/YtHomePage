@@ -485,3 +485,85 @@ body {
         display: grid;
     }
 }
+
+@media (max-width: 807px) and (min-width: 656px){
+
+    .sidebar, .btm-nav {
+        display: none;
+    }
+
+    .header-navbar, .main-content {
+        left: 0;
+    }
+}
+
+@media (max-width: 655px) {
+
+    .sidebar, .btm-nav {
+        display: none;
+    }
+
+    .header-navbar, .main-content {
+        left: 0;
+    }
+
+    .search-container {
+        justify-content: flex-end;
+    }
+
+    .search-container input {
+        display: none;
+    }
+
+    .search-container button {
+        height: 40px;
+        width: 40px;
+        border: none;
+        background-color: #ffffff;
+    }
+
+    .search-btn {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .header-navbar, .main-content {
+        left: 0;
+    }
+
+    .search-container , .user-d{
+        width: 40px;
+    }
+
+    .search-container button {
+        height: 40px;
+        width: 40px;
+        border: none;
+        background-color: #ffffff;
+    }
+
+    .search-btn {
+        height: 24px;
+        width: 24px;
+    }
+
+    .user-btn, .guide-button-box {
+        display: none;
+    }
+
+    .btm-nav {
+        display: flex;
+        z-index: 1;
+    }
+
+    .videos-container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
